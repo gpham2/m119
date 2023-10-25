@@ -1,8 +1,8 @@
 #include <WiFiNINA.h>
 
 //please enter your sensitive data in the Secret tab
-char ssid[] = "ORBI86";                // your network SSID (name)
-char pass[] = "deepocean312";                // your network password (use for WPA, or use as key for WEP)
+char ssid[] = "UCLA_WEB";                // your network SSID (name)
+char pass[] = "";                // your network password (use for WPA, or use as key for WEP)
 int status = WL_IDLE_STATUS;             // the Wi-Fi radio's status
 int ledState = LOW;                       //ledState used to set the LED
 unsigned long previousMillisInfo = 0;     //will store last time Wi-Fi information was updated
