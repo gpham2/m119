@@ -31,12 +31,6 @@ function App() {
   const [gy, setGY] = useState(false);
   const [gz, setGZ] = useState(false);
 
-  const [accelXTime, setAccelXTime] = useState([]);
-  const [accelYTime, setAccelYTime] = useState([]);
-  const [accelZTime, setAccelZTime] = useState([]);
-  const [gyroXTime, setGyroXTime] = useState([]);
-  const [gyroYTime, setGyroYTime] = useState([]);
-  const [gyroZTime, setGyroZTime] = useState([]);
 
   // set it from 1 to 16
 
