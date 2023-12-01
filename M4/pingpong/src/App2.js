@@ -80,7 +80,6 @@ export default class App extends React.Component {
         // accelerometerCharacteristicX.addEventListener('characteristicvaluechanged', handleCharacteristicData(accelX, setAccelX));
         accelerometerCharacteristicY.addEventListener('characteristicvaluechanged',  (e) => {
           const decodedData = new TextDecoder().decode(e.target.value);
-          console.log("accelerometerCharacteristicY " + decodedData)
           let step = 15;
           // Assuming decodedData is the value received from the IMU's Y-axis
      
